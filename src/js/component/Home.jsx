@@ -15,6 +15,8 @@ import { Spinner } from "./Spinner.jsx";
 import { Card } from "./Card.jsx";
 import { ExampleUseState } from "./ExampleUseState.jsx";
 import { TrafficLight } from "./TrafficLight.jsx";
+import { Lista } from "./Lista.jsx";
+import { UsersJPH } from "./UsersJPH.jsx";
 /* 
 Antes se utilzaba clases pero era en los inicios de React pero cuando apareció Javascript
 nos abrió la posibilidad a utilizar funcionesx
@@ -30,16 +32,18 @@ const Home = () => {
 		<div className="text-center" >
 			
 			{/* Añadir una página de React.JS */}
-			<Navbar />
+			{/* <Lista/> */}
+			<UsersJPH/>
+			{/* <Navbar />
 			<ExampleUseState/>
 			<TrafficLight/>
+			<Card/> */}
 			{/* <Alert/>
 			<Spinner/>
 			<Card title={"React"} description={"React es una libreria de Javascript orientada para el FrontEnd"}
 			textButton={"Leer más"} imagen={rigoImage}/>
 			<Card title={"React2"} description={"React es una libreria de Javascript orientada para el FrontEnd2"}
 			textButton={"Leer más2"} imagen={rigoImage}/>
-			<Card/>
 			<h1 className="text-center mt-5" > Hello Rigo!</h1 >
 			<Jumbotron />
 			<p>
